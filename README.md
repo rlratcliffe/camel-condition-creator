@@ -22,7 +22,7 @@ After right clicking on the breakpoint, in the condition field, start typing new
 ```
 new CamelConditionCreator(exchange, processor).whenAtId("route1", "fourth")
 
-new CamelConditionCreator(exchange, processor).whenAtIndex("route1", 3, exchange, processor)
+new CamelConditionCreator(exchange, processor).whenAtIndex("route1", 3)
 ```
 
 Both of those will access the fourth log listed here.
