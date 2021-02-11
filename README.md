@@ -34,7 +34,7 @@ Both of those will access the fourth log listed here.
             .log(LoggingLevel.INFO, "Fourth log ").id("fourth")
 ```
 
-Routes can either be accessed by the name automatically given to them ("route1", "route2", etc) or by the set by them with `.routeId("firstRoute")`.
+Routes can either be accessed by the name automatically given to them ("route1", "route2", etc) or by the id set by using `.routeId("firstRoute")`.
 
 ## Contributing
 Pull requests are welcome.
